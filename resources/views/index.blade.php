@@ -24,14 +24,20 @@
             </div>
 
         </header>
-            <div id="messages"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div id="messages"></div>
+                </div>
+            </div>
+        </div>
     <div class="container">
         <div class="row">
             <div class="col-12">
                 <form id="message_form">
                     <div class="input-group mb-3">
                         <input type="text" class="form-control" id="message_input" name="message" placeholder="Write a message..." aria-label="Recipient's username" aria-describedby="message_send">
-                        <button class="btn btn-outline-secondary" type="submit" id="message_send">Button</button>
+                        <button class="btn btn-outline-success" type="submit" id="message_send">Button</button>
                     </div>
                 </form>
             </div>

@@ -2201,7 +2201,7 @@ message_form.addEventListener('submit', function (e) {
 window.Echo.channel('chat').listen(".message", function (e) {
   message_el.innerHTML += '<div class="message"> <strong>' + e.username + ':' + '</strong>' + e.message + '</div>';
   message_input.value = '';
-  console.log(e);
+  message_el.scrollIntoView();
 });
 
 /***/ }),

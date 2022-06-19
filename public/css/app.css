@@ -11325,3 +11325,12 @@ header{
     align-items: center;
     justify-content: flex-end;
 }
+#messages{
+    height: 50vh;
+    max-height: 50vh;
+    overflow-y: auto;
+}
+
+.message strong{
+    color: red;
+}
